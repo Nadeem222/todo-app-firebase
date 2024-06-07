@@ -3,7 +3,6 @@ import { auth, createUserWithEmailAndPassword, sendEmailVerification, updateProf
 const accountExist = document.getElementById("accountRegister");
 const signinBtn = document.getElementById("signinBtn");
 const tab1 = document.getElementById('tab-1');
-const tab2 = document.getElementById('tab-2');
 
 function resgisterUser() {
   const email = document.getElementById("signinEmail")
